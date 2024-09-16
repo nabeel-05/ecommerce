@@ -1,0 +1,40 @@
+name: main
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/chart.png
+    - assets/home.png
+    - assets/knet.png
+    - assets/logo.png
+    - assets/profile.png
+    - assets/qrcode.png
+    - assets/scanAndPay.png
+    - assets/Search.png
+    - assets/send1.png
+    - assets/send2.png
+    - assets/Slider.png
+    - assets/Vector.png
+    - assets/visa.png
+    - assets/wallet.png
+fonts:
+    - family: Manrope
+      fonts:
+          - asset: assets/fonts/Manrope-Regular.ttf
+          - asset: assets/fonts/Manrope-Bold.ttf
+            weight: 700
